@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# CMS Storage & Uploads (Persistent files)
+server/data/
+server/uploads/
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
